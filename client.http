@@ -72,5 +72,8 @@ Content-Type: application/json
       "removed": []
     }
   ],
-  "total_commits_count": 4
+  "total_commits_count": 4,
+    "object_attributes": {
+    "status": "done"
+  }
 }

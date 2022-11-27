@@ -19,4 +19,4 @@ Using .NET 7 with love.
 `docker-compose build` or `dotnet build`
 
 ## Run Production as Docker
-`docker run -e "TelegramOptions__TelegramToken=YOUR_TELEGRAM_TOKEN"  -e "TelegramOptions__TelegramChatId=YOUR_TELEGRAM_CHAT_ID"  tuanitpro/gitlab_webhook    --expose 5009`
+`docker run -p 5009:5009 -e "TelegramOptions__TelegramToken=YOUR_TELEGRAM_TOKEN"  -e "TelegramOptions__TelegramChatId=YOUR_TELEGRAM_CHAT_ID"  tuanitpro/gitlab_webhook`
