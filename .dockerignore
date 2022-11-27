@@ -1,0 +1,7 @@
+bin/
+obj/
+out/
+appsettings.Development.json
+client.http
+LICENSE
+README.md

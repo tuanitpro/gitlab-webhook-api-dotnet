@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  gitlab_webhook:
+    build:
+      dockerfile: Dockerfile
+    image: tuanitpro/gitlab_webhook
+    container_name: gitlab_webhook
+    
+    ports:
+    - 5009:5009
+    networks:
+      - bee_network
+
+networks:
+  bee_network:
+    driver: bridge
